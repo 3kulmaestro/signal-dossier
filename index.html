@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Signal Dossier — independent reporting on cybercrime and the systems it exposes." />
+    <title>Signal Dossier — Cybercrime reporting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scanline" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Signal Dossier home">SIGNAL<span>_</span>DOSSIER</a>
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu <span>+</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#investigations">Investigations</a><a href="#briefings">Briefings</a><a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Independent cybercrime reporting <span></span> Est. 2026</p>
+        <div class="hero-grid">
+          <div>
+            <p class="issue">ISSUE 001 / THE HUMAN LAYER</p>
+            <h1 id="hero-title">Following the signals through the noise.</h1>
+          </div>
+          <p class="hero-copy">Signal Dossier examines the breaches, frauds, and digital power struggles that quietly reshape ordinary life.</p>
+        </div>
+        <a class="scroll-cue" href="#investigations">Read the latest <span>↓</span></a>
+      </section>
+
+      <section id="investigations" class="investigations" aria-labelledby="investigations-title">
+        <div class="section-heading"><p class="eyebrow">Selected reporting</p><h2 id="investigations-title">Investigations</h2><p class="count">03 stories</p></div>
+        <article class="lead-story story-card">
+          <div class="story-index">01 <span>FEATURE</span></div>
+          <div class="lead-visual" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-lines"></div><span>01:17:43 UTC</span></div>
+          <div class="story-content">
+            <p class="kicker">RANSOMWARE / EXPLAINER</p>
+            <h3>When a hospital’s network goes dark, who pays the real price?</h3>
+            <p>An anatomy of a ransomware event: from the first foothold to the weeks of quiet disruption that follow.</p>
+            <a href="#" class="read-link" data-story="Hospital blackout">Open case file <span>↗</span></a>
+          </div>
+        </article>
+        <div class="story-list">
+          <article class="story-card compact"><div class="story-index">02 <span>BRIEFING</span></div><div><p class="kicker">DIGITAL FRAUD</p><h3>The industrial scale of the everyday scam</h3></div><a href="#" class="read-link" data-story="Everyday scam">Read <span>↗</span></a></article>
+          <article class="story-card compact"><div class="story-index">03 <span>ANALYSIS</span></div><div><p class="kicker">DATA / POWER</p><h3>Your breach notification is only the beginning</h3></div><a href="#" class="read-link" data-story="Breach notification">Read <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section id="briefings" class="briefing-section">
+        <div><p class="eyebrow">The signal log</p><h2>What I’m tracking.</h2></div>
+        <ol class="signal-log">
+          <li><span>01</span><p>How stolen credentials become a commodity market.</p><time>In research</time></li>
+          <li><span>02</span><p>The people behind “pig butchering” fraud operations.</p><time>Coming soon</time></li>
+          <li><span>03</span><p>Why incident disclosure is a public-interest story.</p><time>In research</time></li>
+        </ol>
+      </section>
+
+      <section id="about" class="about-section">
+        <p class="eyebrow">About this desk</p>
+        <div class="about-grid"><h2>The systems are technical. The consequences are human.</h2><div><p>Signal Dossier is an independent publication about cybercrime, digital security, and the people caught in between. I report from primary sources, name uncertainty, and write for the people affected—not just the people in the room.</p><p class="byline">By <strong>Your Name</strong><br />Independent cyber journalist</p><a href="mailto:lnwc1998@proton.me" class="read-link">Get in touch <span>↗</span></a></div></div>
+      </section>
+    </main>
+
+    <footer><a class="wordmark" href="#top">SIGNAL<span>_</span>DOSSIER</a><p>Reporting in public interest. © 2026</p><a href="mailto:hello@example.com">Secure contact</a></footer>
+    <dialog id="story-dialog"><button class="dialog-close" aria-label="Close">×</button><p class="eyebrow">DEMO ARTICLE</p><h2 id="dialog-title"></h2><p>This is a preview of the site’s article interaction. Replace this card link with a dedicated article page when you publish your reporting.</p></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
